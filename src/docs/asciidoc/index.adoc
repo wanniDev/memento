@@ -1,0 +1,17 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+= Memento
+:toclevels: 2
+:sectlinks:
+
+[[health-check]]
+== 헬스체크 API
+
+=== HTTP request
+include::{snippets}/health-check-test-api/current-jvm-milliseconds/http-request.adoc[]
+
+=== HTTP response
+include::{snippets}/health-check-test-api/current-jvm-milliseconds/response-fields.adoc[]
+include::{snippets}/health-check-test-api/current-jvm-milliseconds/response-body.adoc[]
+include::{snippets}/health-check-test-api/current-jvm-milliseconds/http-response.adoc[]
