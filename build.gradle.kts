@@ -103,7 +103,7 @@ tasks {
 		dependsOn(asciidoctor)
 
 		from(asciidoctor.get().outputDir) {
-			into("BOOT-INF/classes/static/docs")
+			into("BOOT-INF/classes/static")
 		}
 	}
 }
